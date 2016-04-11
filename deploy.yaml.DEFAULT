@@ -1,0 +1,20 @@
+# stout Configuration
+# Copy to deploy.yaml and update accordingly
+default:
+  bucket: <name of the S3 bucket to deploy to>
+  region: <region the S3 bucket is located in>
+  key: <Key of IAM user that has publish access to bucket>
+  secret: <Secret of IAM user that has publish access to bucket>
+  root: ./build #Location of static files to push to S3 bucket
+
+# > deploy --env production
+# production:
+#   key: 'XXX'
+#   secret: 'XXX'
+#   bucket: 'eager.io'
+
+# > deploy --env development
+# dev:
+#   key: 'XXX'
+#   secret: 'XXX'
+#   bucket: 'next.eager.io'

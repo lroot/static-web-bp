@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "title": "Static Website",
+    "keywords":"keywords",
+    "description":"description",
+    "pageID":"home-page",
+    "bodyClass":""
+
+  }
+}
